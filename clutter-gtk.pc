@@ -1,0 +1,14 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+flavour=x11
+apiversion=0.12
+clutterapiversion=1.0
+
+Name: clutter-gtk
+Description: GTK+ integration for Clutter
+Version: 0.11.3
+Libs: -L${libdir} -lclutter-gtk-${apiversion}
+Cflags: -I${includedir}/clutter-gtk-${apiversion}
+Requires: clutter-x11-1.0 gtk+-2.0

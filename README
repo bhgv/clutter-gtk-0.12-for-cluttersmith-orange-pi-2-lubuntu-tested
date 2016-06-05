@@ -1,0 +1,17 @@
+Clutter-GTK - GTK+ Integration library for Clutter
+-------------------------------------------------------------------------------
+
+Clutter-GTK is a library providing facilities to integrate Clutter into GTK+
+applications. It provides a GTK+ widget, GtkClutterEmbed, for embedding the
+default ClutterStage into any GtkContainer.
+
+Requirements:
+
+  Clutter >= 1.4.0 (X11 backend) or >= 1.4.0 (Win32 backend)
+  GTK+ >= 2.20.0
+
+Copyright (C) 2006, 2007, 2008  OpenedHand Ltd
+Copyright (C) 2009, 2010, 2011 Intel Corporation
+
+Released under the terms of the GNU Lesser General Public License, version 2.1
+or later. See the file COPYING for details.
